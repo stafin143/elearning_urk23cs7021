@@ -1,0 +1,12 @@
+[2025-04-29T18:18:37.691Z] [ERROR] [Database Setup] Access denied for user 'root'@'localhost' (using password: NO)
+Error: Access denied for user 'root'@'localhost' (using password: NO)
+    at PromisePool.query (C:\Users\USER\Downloads\e-learning-platform\server\node_modules\mysql2\lib\promise\pool.js:36:22)
+    at setupDatabase (C:\Users\USER\Downloads\e-learning-platform\server\server.js:60:20)
+    at C:\Users\USER\Downloads\e-learning-platform\server\server.js:100:18
+    at Object.<anonymous> (C:\Users\USER\Downloads\e-learning-platform\server\server.js:105:3)
+    at Module._compile (node:internal/modules/cjs/loader:1554:14)
+    at Object..js (node:internal/modules/cjs/loader:1706:10)
+    at Module.load (node:internal/modules/cjs/loader:1289:32)
+    at Function._load (node:internal/modules/cjs/loader:1108:12)
+    at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+    at wrapModuleLoad (node:internal/modules/cjs/loader:220:24)
